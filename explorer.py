@@ -225,7 +225,7 @@ def try_menu(path, link, command=None):
         Button(menu, text="Rename", command=f_rename).pack(fill="x")
 
         Button(menu, text="Open in Default App", command=lambda: run(["start", "", path], shell=True)).pack(fill="x")
-s
+
         if isdir(path):
             pass
 
